@@ -68,4 +68,15 @@ footer {
     align-items: center;
     height: 50px;
     background-color: grey;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.2s;
+}
+
+footer a:hover {
+    color: lightskyblue;
 }
