@@ -34,33 +34,21 @@ p {
     display: flex;
     align-items: center;
     padding: 0 5px 0 5px;
-}
-
-.disabled {
-    pointer-events: none;
+    gap: 15px;
 }
 
 .navi a {
     text-decoration: none;
     color: white;
-    transition-duration: 0.2s;
-    border-radius: 8px;
-    padding: 10px;
-}
-
-.active {
     background-color: red;
     border-radius: 8px;
-    padding: 10px;
-
+    padding: 5px;
+    transition-duration: 0.2s;
 }
 
 .navi a:hover {
-    background-color: red;
-    border-radius: 8px;
+    color: black;
 }
-
-
 
 .main-content {
     display: flex;
