@@ -31,7 +31,7 @@ html ,body{
   
 .sidenav a:hover {
     color: #f1f1f1;
-    margin-left: 20px;
+    transform: scale(1.1);
 }
 
 .sidenav .closebtn {
@@ -39,7 +39,6 @@ html ,body{
     top: 0;
     right: 25px;
     font-size: 36px;
-    margin-left: 50px;
 }
 
 @media screen and (max-height: 450px) {
